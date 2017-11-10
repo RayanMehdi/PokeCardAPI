@@ -440,3 +440,16 @@
 127.0.0.1 - - [18/Oct/2017:15:23:48 +0200] "GET /index.php/pokemon/list HTTP/1.1" 200 9
 127.0.0.1 - - [18/Oct/2017:15:52:12 +0200] "GET /index.php/pokemon/list HTTP/1.1" 200 9
 127.0.0.1 - - [18/Oct/2017:16:06:28 +0200] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+127.0.0.1 - - [07/Nov/2017:14:09:19 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+127.0.0.1 - - [07/Nov/2017:14:09:21 +0100] "GET /favicon.ico HTTP/1.1" 404 209
+127.0.0.1 - - [07/Nov/2017:16:23:06 +0100] "GET /index.php HTTP/1.1" 404 34071
+127.0.0.1 - - [07/Nov/2017:16:23:13 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+127.0.0.1 - - [07/Nov/2017:16:25:07 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+192.168.240.32 - - [07/Nov/2017:16:28:44 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+192.168.240.32 - - [07/Nov/2017:16:28:48 +0100] "GET /favicon.ico HTTP/1.1" 404 209
+192.168.240.32 - - [07/Nov/2017:16:29:22 +0100] "GET /index.php/pokemon/lis HTTP/1.1" 404 34115
+192.168.240.32 - - [07/Nov/2017:16:29:26 +0100] "GET /index.php/pokemon/lis HTTP/1.1" 404 34115
+192.168.240.32 - - [07/Nov/2017:16:29:32 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+192.168.240.32 - - [10/Nov/2017:13:50:58 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+192.168.240.32 - - [10/Nov/2017:13:51:31 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
+192.168.240.32 - - [10/Nov/2017:13:52:00 +0100] "GET /index.php/pokemon/list HTTP/1.1" 200 9
