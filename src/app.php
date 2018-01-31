@@ -13,6 +13,13 @@ $app->register(new TwigServiceProvider(), array(
 ));
 
 //Ajout des repository
+
 $app['repository.pokemon'] = function ($app) {
     return new App\Pokemon\Repository\PokemonRepository($app['db']);
+
+};
+
+$app['repository.users'] = function ($app) {
+    return new App\Users\Repository\UserRepository($app['db']);
+
 };

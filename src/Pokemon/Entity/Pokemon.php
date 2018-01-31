@@ -4,6 +4,7 @@ namespace App\Pokemon\Entity;
 
 class Pokemon
 {
+  protected $id;
   protected $icon;
   protected $name;
   protected $pv;
@@ -14,7 +15,8 @@ class Pokemon
   protected $spe;
 
 
-  public  function __construct($icon, $name, $pv, $att, $def, $spA, $spD, $spe){
+  public  function __construct($id, $icon, $name, $pv, $att, $def, $spA, $spD, $spe){
+    $this->id = $id;
     $this->icon = $icon;
     $this->name = $name;
     $this->att = $att;
@@ -27,6 +29,7 @@ class Pokemon
 
   public    function toJson(){
     return json_encode( array(
+        'id' => $this->id,
         'icon' => $this->icon,
         'name' => $this->name,
         'pv' => $this->pv,
